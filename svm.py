@@ -11,8 +11,7 @@ from collections import Counter
 import random
 
 path = os.getcwd() + '/data/breast-cancer-wisconsin.data.txt'
-df = pd.read_csv(path, header= None , names =['sample_code_num','clump_thickness',
-											'uni_cell_size','uni_cell_shape',
+df = pd.read_csv(path, header= None , names =['sample_code_num','clump_thickness','uni_cell_size','uni_cell_shape',
 											'marginal_adhesion',
 											'single_epithilial_cell_size','bare_nuclei',
 											'bland_chromatin','normal_nucleoli','mitoses',
